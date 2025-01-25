@@ -13,7 +13,7 @@ class TestCreateBooking(object):
     @pytest.mark.positive
     @allure.title("Verify that Create Booking Status is 200 and Booking ID shouldn't be null")
     @allure.description(
-        "Creating a Booking from the payload and verify that booking isn' null and status code is 200 for the correct payload")
+        "Creating a Booking from the payload and verify that booking isn't null and status code is 200 for the correct payload")
     def test_create_booking_positive(self):
         LOGGER = logging.getLogger(__name__)
         LOGGER.info("Starting the Testcase of TestCreateBooking")
