@@ -25,18 +25,38 @@ def payload_create_booking():
 
 def payload_update_booking():
     payload = {
-        "firstname": "Amit",
-        "lastname": "Brown",
+        "firstname": "Damini",
+        "lastname": "Sinha",
         "totalprice": 111,
         "depositpaid": True,
         "bookingdates": {
-            "checkin": "2018-01-01",
-            "checkout": "2019-01-01"
+            "checkin": "2025-01-01",
+            "checkout": "2025-01-26"
         },
         "additionalneeds": "Breakfast"
     }
     return payload
 
+def payload_update_booking_patch():
+    payload = {
+        "firstname": "Shikha",
+        "lastname": "Srivastava"
+    }
+    return payload
+
+def payload_update_invalid_put():
+    payload = {
+        "firstname": "Damini",
+        "lastname": "Sinha",
+        "totalprice": 111,
+        "depositpaid": True,
+        "bookingdates": {
+            "checkin": "2025-01-01",
+            "checkout": "2025-01-26"
+        },
+        "additionalneeds": "Breakfast",
+    }
+    return payload
 
 from dotenv import load_dotenv
 import os

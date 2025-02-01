@@ -1,4 +1,7 @@
 # Reason : To reuse the Create Token and Create Booking.
+
+#create token and create booking Id.
+
 from src.constants.api_constants import APIConstants
 from src.helpers.api_requests_wrapper import *
 from src.helpers.common_verification import *
@@ -22,7 +25,6 @@ def create_token():
     )
     # Log the response to check its contents
     print(response.text)  # This will print the full response body
-
     response_json = response.json()
     token = response_json["token"]
     return token
@@ -43,3 +45,4 @@ def get_booking_id():
     verify_http_status_code(response_data=response, expected_data=200)
     verify_json_key_not_null(booking_id)
     return booking_id
+
