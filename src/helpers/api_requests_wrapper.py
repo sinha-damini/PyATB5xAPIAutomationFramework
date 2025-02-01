@@ -3,17 +3,20 @@
 import json
 import requests
 
-def get_request(url, auth):
+
+def get_request(url, auth, in_json):
     get_response = requests.get(url=url, auth=auth)
     if in_json:
         return get_response.json()
     return get_response
 
+
 def post_request(url, auth, headers, payload, in_json):
-    post_response = requests.post(url=url, auth=auth, headers=headers, data=json.dumps(payload))
+    post_response = requests.post(url=url, headers=headers, auth=auth, data=json.dumps(payload))
     if in_json:
         return post_response.json()
     return post_response
+
 
 def patch_requests(url, headers, auth, payload, in_json):
     patch_response_data = requests.patch(url=url, headers=headers, auth=auth, data=json.dumps(payload))
