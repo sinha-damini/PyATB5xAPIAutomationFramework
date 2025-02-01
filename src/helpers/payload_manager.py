@@ -38,10 +38,15 @@ def payload_update_booking():
     return payload
 
 
+from dotenv import load_dotenv
+import os
+
 def payload_create_token():
-    load_dotenv()
-    payload = {
+    load_dotenv("C:\\Users\\HP\\PycharmProjects\\PyATB5xAPIAutomationFramework\\.env", override=True)
+
+    return {
         "username": os.getenv("USERNAME"),
         "password": os.getenv("PASSWORD")
     }
-    return payload
+
+

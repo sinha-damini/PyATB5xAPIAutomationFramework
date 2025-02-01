@@ -51,3 +51,5 @@ class TestE2E(object):
         )
         verify_http_status_code(response_data=response, expected_data=201)
         verify_response_delete(response=response.text)
+
+# pytest -s src/tests/end2end/test_e2e_complete.py

@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbcfe2da-1f1c-44c1-a48a-2fd4ba047cb3" name="Changes" comment="07th Jan">
+    <list default="true" id="dbcfe2da-1f1c-44c1-a48a-2fd4ba047cb3" name="Changes" comment="2nd Feb">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/debug_env.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/=allure_result/7c82030c-712a-4f60-b98d-1f915b7be32a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/=allure_result/f7c81f0d-7e58-4de7-b1cf-04f18958e8d1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/api_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/api_constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/api_requests_wrappers.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resorces/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resorces/testdata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/crud/test_create_booking.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/sample/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/end2end/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/sample/test_sample.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resorces/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/end2end/test_e2e_complete.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/end2end/test_e2e_complete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/end2end/test_e2e_full.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/end2end/test_e2e_full.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +57,10 @@
     &quot;Python tests.Python tests for test_e2e_complete.TestE2E.test_delete_booking_id.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_e2e_full.TestE2E.test_delete_booking_id.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_e2e_full.TestE2E.test_update_booking_with_id_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_e2e_complete.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_e2e_full.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.payload_manager.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/PycharmProjects/PyATB5xAPIAutomationFramework/src/helpers&quot;
@@ -79,7 +77,7 @@
       <recent name="C:\Users\HP\PycharmProjects\PyATB5xAPIAutomationFramework\src\tests\sample" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_e2e_full.TestE2E.test_delete_booking_id">
+  <component name="RunManager" selected="Python tests.Python tests for test_e2e_complete.TestE2E.test_delete_booking_id">
     <configuration name="Python tests for test_e2e_complete.TestE2E.test_delete_booking_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyATB5xAPIAutomationFramework" />
       <option name="ENV_FILES" value="" />
@@ -165,11 +163,20 @@
       <option name="project" value="LOCAL" />
       <updated>1736269034904</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2nd Feb">
+      <option name="closed" value="true" />
+      <created>1738404153094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738404153094</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="07th Jan" />
-    <option name="LAST_COMMIT_MESSAGE" value="07th Jan" />
+    <MESSAGE value="2nd Feb" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd Feb" />
   </component>
 </project>
